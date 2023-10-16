@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【覇王道】
+    </title>
+    <link rel="icon" href="favicon.PNG" type="image/x-icon">
+    <style>
+        body {
+            font-family: '楷書MCBK1', '楷書', 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgb(144, 118, 65), #8E733C 40%, #EADBBC 75%, #BDA980);
+            color: black;
+        }
+
+        #header {
+            padding: 30px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: black;
+        }
+
+        p {
+            color: black;
+            font-size: 18px;
+        }
+
+        #motto {
+            padding: 30px;
+        }
+
+        #works {
+            padding: 30px;
+        }
+
+        .work-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px;
+            padding: 30px;
+        }
+
+        .work-details {
+            flex: 1;
+            text-align: left;
+        }
+
+        video {
+            width: 480px; /* 幅を変更 */
+            height: 360px; /* 高さを変更 */
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .contact-icons a {
+            margin: 0 10px;
+        }
+
+        .work-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px;
+            padding: 30px;
+            border: 1px solid black; /* 例として境界線を追加 */
+        }
+
+        .work-item img,
+        video {
+            width: 480px; /* 幅を変更 */
+            height: 360px; /* 高さを変更 */
+            margin-right: 30px; /* 画像とテキストの間のマージンを追加 */
+        }
+
+        .work-details {
+            flex: 1;
+            text-align: left;
+            padding: 20px; /* テキストのパディングを追加 */
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Kai+Ti+MC+GB:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1 style="font-size: 288px;">覇王道</h1>
+        <p style="font-size: 69px;">志「対話による勇気づけであなたを笑顔に」</p>
+        <p style="font-size: 69px;">座右の銘「楽しんだもの＝価値」</p>
+    </div>
+
+    <div id="motto">
+        <h2 style="font-size: 123px;">制作物</h2>
+
+        <div class="work-item">
+            <img src="haoudou.png" alt="覇王道" style="width: 480px; height: 360px;">
+            <div class="work-details">
+                <h3 style="font-size: 28px;">ポートフォリオサイト【覇王道】</h3>
+                <p style="font-size: 20px;">使用言語やツール: HTML/CSS <a href="URL1">ソースコード（Github）</a></p>
+            </div>
+        </div>
+
+        <!-- 動画の挿入 -->
+        <div class="work-item">
+            <video controls>
+                <source src="IMG_1255.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="work-details">
+                <h3 style="font-size: 28px;">ARアバター秘書YUI</h3>
+                <p style="font-size: 20px;">使用言語やツール: Swift、SwiftUI、Speech、AVFaundation <a href="https://github.com/morikentiger/YUI_AUT">ソースコード（Github）</a></p>
+            </div>
+        </div>
+        <!-- 他の制作物を追加 -->
+		<!-- 動画の挿入 -->
+        <div class="work-item">
+            <video controls>
+                <source src="Scratch_Mario.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="work-details">
+                <h3 style="font-size: 28px;">マリオ小ジャンプ加速移動スクロール再現</h3>
+                <p style="font-size: 20px;">使用言語やツール: Scratch <a href="https://scratch.mit.edu/projects/878545795/">リンク3</a></p>
+            </div>
+        </div>
+        <!-- 動画の挿入 -->
+        <div class="work-item">
+            <video controls>
+                <source src="mario_cpp.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="work-details">
+                <h3 style="font-size: 28px;">マリオ小ジャンプBダッシュ再現</h3>
+                <p style="font-size: 20px;">使用言語やツール: C++,SFML</p>
+            </div>
+        </div>
+
+        <div class="work-item">
+            <img src="favicon.PNG" alt="kuromoriken icon" style="width: 360px; height: 360px;">
+            <div class="work-details">
+                <h3 style="font-size: 28px;">BGM制作</h3>
+                <p style="font-size: 20px;">使用言語やツール: GarageBand、iPad用LogicPro <a href="https://soundcloud.com/kuromoriken">SoundCloud視聴はこちら</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-icons">
+        <a href="mailto:kuromoriken@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.youtube.com/channel/UC7I2uLrMp0pfYmyWVIM3ZPw"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/haoumoriken/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/kuromoriken"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <p>©︎HAOUMORIKEN1（森田健太） All Rights Reserved.</p>
+
+    <button onclick="topFunction()" class="back-to-top">ホームに戻る</button>
+
+    <script>
+        // ボタンをクリックした際のスクロールをトップへのアニメーション
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+</html>
