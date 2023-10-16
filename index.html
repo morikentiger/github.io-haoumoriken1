@@ -95,16 +95,37 @@
             cursor: pointer;
         }
 
+
+		/* フォントサイズの修正 */
+        h1 {
+            font-size: 288px;
+        }
+
+		#header p {
+            font-size: 69px;
+        }
+
+        #motto p {
+            font-size: 69px;
+        }
+
+        .work-details h3 {
+            font-size: 28px;
+        }
+
         /* メディアクエリ */
         @media only screen and (max-width: 600px) {
             h1 {
-                font-size: 60px; /* レスポンシブに合わせて調整 */
+                font-size: 123px;
             }
-            p {
-                font-size: 12px; /* レスポンシブに合わせて調整 */
+			#header p {
+				font-size: 24px;
+			}
+            #motto p {
+                font-size: 30px;
             }
             .work-details h3 {
-                font-size: 18px; /* レスポンシブに合わせて調整 */
+                font-size: 18px;
             }
             .work-item {
                 flex-direction: column; /* 縦方向に並べる */
@@ -126,9 +147,9 @@
 
 <body>
     <div id="header">
-        <h1 style="font-size: 288px;">覇王道</h1>
-        <p style="font-size: 69px;">志「対話による勇気づけであなたを笑顔に」</p>
-        <p style="font-size: 69px;">座右の銘「楽しんだもの＝価値」</p>
+        <h1>覇王道</h1>
+        <p>志「対話による勇気づけであなたを笑顔に」</p>
+        <p>座右の銘「楽しんだもの＝価値」</p>
     </div>
 
     <div id="motto">
